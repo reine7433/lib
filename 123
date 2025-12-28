@@ -10882,13 +10882,6 @@ au.User.Enabled=false
 am(au.UIElements.SideBarContainer,.25,{Size=UDim2.new(0,au.SideBarWidth,1,-au.Topbar.Height)},Enum.EasingStyle.Quint,Enum.EasingDirection.Out):Play()
 aB.Visible=false
 end
-function au.User.SetAnonymous(aC,aD)
-if aD~=false then aD=true end
-au.User.Anonymous=aD
-aB.UserIcon.ImageLabel.Image=GetUserThumb()
-aB.UserIcon.Frame.DisplayName.Text="@robloxscripts863",
-aB.UserIcon.Frame.UserName.Text="@robloxscripts863",
-end
 
 if au.User.Enabled then
 au.User:Enable()
