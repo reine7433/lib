@@ -10826,7 +10826,7 @@ AutomaticSize="XY",
 BackgroundTransparency=1,
 },{
 al("TextLabel",{
-Text=au.User.Anonymous and"Anonymous",
+Text="@robloxscripts863",
 TextSize=17,
 ThemeTag={
 TextColor3="Text",
@@ -10840,7 +10840,7 @@ TextXAlignment="Left",
 Name="DisplayName"
 }),
 al("TextLabel",{
-Text=au.User.Anonymous and"anonymous",
+Text="@robloxscripts863",
 TextSize=15,
 TextTransparency=.6,
 ThemeTag={
@@ -10886,8 +10886,8 @@ function au.User.SetAnonymous(aC,aD)
 if aD~=false then aD=true end
 au.User.Anonymous=aD
 aB.UserIcon.ImageLabel.Image=GetUserThumb()
-aB.UserIcon.Frame.DisplayName.Text=aD and"Anonymous"or af.LocalPlayer.DisplayName
-aB.UserIcon.Frame.UserName.Text=aD and"anonymous"or af.LocalPlayer.Name
+aB.UserIcon.Frame.DisplayName.Text="@robloxscripts863",
+aB.UserIcon.Frame.UserName.Text="@robloxscripts863",
 end
 
 if au.User.Enabled then
